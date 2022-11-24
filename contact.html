@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="utf-8">
+    <title>Bruno Freijomil - Contacto</title>
+    <meta name="keywords" content="Desarrollo Web, progrmador web, css, html, Desarrollador">
+
+    <!-- Favicon -->
+    <link href="img/user.png" rel="icon">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400|Work+Sans:300,400,700" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link href="https://file.myfontastic.com/7vRKgqrN3iFEnLHuqYhYuL/icons.css" rel="stylesheet">
+
+</head>
+
+<body data-spy="scroll" data-target="#navbar-nav-header" class="static-layout">
+    <div class="boxed-page">
+        <nav id="gtco-header-navbar" class="navbar navbar-expand py-4">
+            <div class="container">
+                <div style="margin: 0 auto;">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="activo" class="nav-link" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- <div class="jumbotron d-flex align-items-center" style="background-image: url(img/hero-2.jpg)">
+  <div class="container text-center">
+    <h1 class="display-2 mb-4">Contáctame</h1>
+    <p>
+      Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.<br>Duis mollis, est non commodo luctus.
+    </p>
+  </div>
+</div>		 -->
+
+        <!-- CONTACTO -->
+        <section style="border-top-right-radius: 5px; border-top-left-radius: 5px" id="gtco-contact-form"
+            class="bg-white">
+            <div class="container">
+                <div class="section-content">
+                    <!-- titulo -->
+                    <div class="title-wrap">
+                        <h2 class="section-title h2Responsive">Contáctame</h2>
+                        <!-- <p class="section-sub-title">Lorem ipsum dolor sit amet consectetur adipisrepu Porro, commodi optio! Maxime eos, excepturi non molesdi earum, voluptates et!</p> -->
+
+                    </div>
+                    <!-- fin titulo -->
+                    <div class="row">
+                        <!-- formulario contacto -->
+                        <div class="col-md-8 offset-md-2 contact-form-holder mt-4">
+                            <form action="contacto.php" method="post" name="contact-us" action="">
+                                <div class="row">
+                                    <div class="col-md-6 form-input">
+                                        <input type="text" class="form-control" id="name" name="nombre"
+                                            placeholder="Nombre">
+                                    </div>
+                                    <div class="col-md-6 form-input">
+                                        <input type="text" class="form-control" id="email" name="email"
+                                            placeholder="Email">
+                                    </div>
+                                    <div class="col-md-12 form-input">
+                                        <input type="text" class="form-control" id="subject" name="asunto"
+                                            placeholder="Asunto">
+                                    </div>
+                                    <div class="col-md-12 form-textarea">
+                                        <textarea style="resize: none;" class="form-control" id="message" name="mensaje"
+                                            rows="6" placeholder="Su mensaje..."></textarea>
+                                    </div>
+                                    <div class="col-md-12 form-btn text-center">
+                                        <button class="btn btn-block btn-secondary btn-enviar" type="submit"
+                                            name="submit" onclick="return false;">Enviar Mensaje</button>
+
+                                    </div>
+                                </div>
+                            </form>
+                            <div id="form-message-warning"></div>
+                            <div id="form-message-success">
+                                Su mensaje fue enviado, ¡Muchas gracias!
+                            </div>
+                        </div>
+                        <!-- FIN formulario contacto -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FIN CONTACTO -->
+
+        <footer class="mastfoot mb-3 bg-white py-4 border-top">
+            <div class="inner container">
+                <div class="row">
+                    <div class="col-md-6 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <p class="mb-0">&copy; 2022 | Freijomil Bruno Ezequiel</p>
+                    </div>
+
+                    <div class="col-md-6">
+                        <nav class="nav nav-mastfoot justify-content-md-end justify-content-center">
+                            <a class="nav-link" target="_blank" href="https://www.instagram.com/bruno.freijo/">
+                                <i class="icon-instagram"></i>
+                            </a>
+                            <a class="nav-link" target="_blank"
+                                href="https://www.linkedin.com/in/bruno-ezequiel-freijomil-987106222/">
+                                <i class="icon-linkedin"></i>
+                            </a>
+                        </nav>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    </div>
+</body>
+
+</html>
