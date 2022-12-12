@@ -125,6 +125,8 @@ img {
   max-width: 100%;
 }
 
+
+
 .iconos {
   /* ICONOS de lenguajes*/
   width: 7.5rem;
@@ -407,10 +409,8 @@ footer i{
   }
 }
 
-
+/* es el marco celeste en responsive */
 @media screen and (max-width: 820px) {
-
-  /* es el marco celeste en responsive */
   .boxed-page {
     margin: 4rem 15px;
   }
