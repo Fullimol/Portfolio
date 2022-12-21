@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
     <link href="https://file.myfontastic.com/7vRKgqrN3iFEnLHuqYhYuL/icons.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> <!-- efectos -->
 
 </head>
 
@@ -27,18 +28,23 @@
 
 
         <div class="jumbotron d-flex align-items-center ">
-            <div class="container text-center">
+            <div class="container text-center" data-aos="zoom-in">
                 <img id="check" src="img/check.png">
                 <h1 class="display-2 mb-4">¡Mensaje enviado!</h1>
                 <p style="padding-bottom: 50px;">
                     Muchas gracias por su interés, a la brevedad responderé su mensaje.
                 </p>
 
-                <a class="volver" href="index.html">Volver a inicio</a>
+                <a class="volver" href="index.html" data-aos="zoom-in" data-aos-delay="1600">Volver a inicio</a>
             </div>
         </div>
     </div>
-
+<!-- efectos -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+ </script>
+ <!-- efectos fin -->
 </body>
 
 </html>
