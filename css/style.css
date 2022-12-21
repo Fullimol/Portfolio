@@ -365,10 +365,6 @@ a {
   opacity: .5;
 }
 
-#form-message-warning,
-#form-message-success {
-  display: none;
-}
 
 .btn-enviar {
   background-color: #0e8d89;
@@ -383,6 +379,16 @@ a {
   transition: 0.6s;
   background-color: #1ef671;
   color: black !important;
+}
+
+#check{
+  width: 14rem;
+  margin-top: -35px;
+  margin-bottom: 30px;
+}
+
+.volver{
+  font-size: 3rem;
 }
 
 /* Formulario  FIN*/
