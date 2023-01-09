@@ -63,7 +63,7 @@
                                     </div>
                                     <div class="col-md-6 form-input">
                                         <input type="email" class="form-control" id="email" name="email"
-                                            placeholder="Email">
+                                            placeholder="Email" >
                                     </div>
                                     <div class="col-md-12 form-input">
                                         <input type="text" class="form-control" id="subject" name="asunto"
@@ -74,15 +74,17 @@
                                             rows="6" placeholder="Su mensaje..."></textarea>
                                     </div>
                                     <div class="col-md-12 form-btn text-center">
-                                        <button class="btn btn-block btn-secondary btn-enviar" type="submit"
+                                        <button id="submit-button" class="btn btn-block btn-secondary btn-enviar" type="submit"
                                             name="submit">Enviar Mensaje</button>
                                     </div>
+                                    <span id="validacionMail" class="validacion" style="margin-top: 5px;"></span>
                                 </div>
                             </form>
                         </div>
                         <!-- FIN formulario contacto -->
                     </div>
                 </div>
+            </div>
         </section>
         <!-- FIN CONTACTO -->
 
@@ -92,7 +94,6 @@
                     <div class="col-md-6 d-flex align-items-center justify-content-md-start justify-content-center">
                         <p class="mb-0">&copy; 2022 | Freijomil Bruno Ezequiel</p>
                     </div>
-
                     <div class="col-md-6">
                         <nav class="nav nav-mastfoot justify-content-md-end justify-content-center">
                             <a class="nav-link" target="_blank" href="https://www.instagram.com/bruno.freijo/">
@@ -111,13 +112,13 @@
     </div>
 
     </div>
-
     <!-- efectos -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
     <!-- efectos fin -->
+    <script src="js/validacion.js"></script>
 </body>
 
 </html>

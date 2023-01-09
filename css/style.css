@@ -407,6 +407,16 @@ footer i{
   font-size: 3rem;
 }
 
+
+/* el SPAN de Validacion del FORMULARIO (javascript)*/
+.validacion {
+  color: red;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+
 /* Footer FIN */
 
 @media (max-width: 476px) {
