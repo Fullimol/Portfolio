@@ -1,8 +1,8 @@
 const form = document.querySelector("form")
 const nombre = document.getElementById("name")
 const email = document.getElementById("email")
-const asunto = document.getElementById("subjet")
-const textaera = document.getElementById("message")
+const asunto = document.getElementById("subject")
+const textarea = document.getElementById("message")
 const boton = document.getElementById("submit-button")
 
 
@@ -14,6 +14,7 @@ boton.addEventListener('click', function (e) {
   validacionName = document.getElementById("validacionName")
 
     if (nombre.value === '') {
+      console.log("nombre VACIO")
       validacionName.innerText = "■ Falta el nombre"
       event.preventDefault();
     }
@@ -35,8 +36,30 @@ boton.addEventListener('click', function (e) {
       console.log("Mail VALIDO")
       validacionMail.innerText = "";
     }
+});
 
+boton.addEventListener('click', function (e) {
+  validacionAsunto = document.getElementById("validacionAsunto")
+  validacionTexto = document.getElementById("validacionTexto")
 
+    if (textarea.value === '') {
+      console.log("texto incompleto")
+      validacionTexto.innerText = "■ Falta el texto"
+      event.preventDefault();
+    }
+    if (textarea.value.length >= 1) {
+      console.log("Texto COMPLETO")
+      validacionTexto.innerText = ""
+    }
+    if (asunto.value ==='') {
+      console.log("Asunto vacio")
+      validacionAsunto.innerText = "■ Falta el asunto"
+      event.preventDefault();
+    }
+    if (asunto.value.length >= 1){
+      console.log("Asunto completado")
+      validacionAsunto.innerText = ""
+    }
 });
 
 
