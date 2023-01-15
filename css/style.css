@@ -15,6 +15,12 @@ body {
   font-size: 1.6rem;
 }
 
+
+html, body { /* quita la franja blanca derecha del responsive (scroll) */
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+
 body:after {
   position: absolute;
   content: "";
