@@ -124,6 +124,7 @@ p {
 .section-title,
 .section-sub-title {
   margin-bottom: 30px;
+  margin-top: 25px;
 }
 
 
@@ -154,9 +155,15 @@ img {
   }
 }
 
+/* sección SOBRE MI */
 #sobreMi img {
   /* ICONOS SOBRE MI */
   margin-bottom: 15px;
+}
+
+.itemsSobreMi{
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 /* a:focus,       VERIFICAR  PARA BORRRAR
@@ -172,8 +179,8 @@ a:hover {
 
 
 .section-content {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 45px;
+  padding-bottom: 45px;
 }
 
 .title-wrap,
