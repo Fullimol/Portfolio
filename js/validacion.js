@@ -5,8 +5,6 @@ const asunto = document.getElementById("subject")
 const textarea = document.getElementById("message")
 const boton = document.getElementById("submit-button")
 
-
-
 emailRegex = /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/i;
 
 // validación de input de nombre y mail
@@ -63,3 +61,4 @@ boton.addEventListener('click', function (e) {
     validacionAsunto.innerText = ""
   }
 });
+

@@ -324,8 +324,9 @@ a {
   height: 100%;
 }
 
-.blog-title h4 {
-  color: #000;
+.estudios{
+  border: 2px solid #0e8d89;
+  border-radius: 5%;
 }
 
 .blog-text {
