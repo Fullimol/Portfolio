@@ -137,6 +137,12 @@ img {
 .iconos {
   /* ICONOS de lenguajes*/
   width: 7.5rem;
+  transition: 0.5s;
+}
+
+.iconos:hover{
+  transform: scale(1.3);
+  transition: 0.5s;
 }
 
 .perfil {
