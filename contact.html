@@ -1,132 +1,205 @@
 <!DOCTYPE html>
 <html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<title>Bruno Freijomil - Contacto</title>
+		<meta
+			name="portfolio"
+			content="Desarrollo Web, progrmador web, css, html, Desarrollador"
+		/>
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
 
-<head>
+		<!-- Favicon -->
+		<link href="img/user.png" rel="icon" />
 
-    <meta charset="utf-8">
-    <title>Bruno Freijomil - Contacto</title>
-    <meta name="portfolio" content="Desarrollo Web, progrmador web, css, html, Desarrollador">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Fonts -->
+		<link
+			href="https://fonts.googleapis.com/css?family=Lato:300,400|Work+Sans:300,400,700"
+			rel="stylesheet"
+		/>
 
-    <!-- Favicon -->
-    <link href="img/user.png" rel="icon">
+		<!-- CSS -->
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/darkMode.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css"
+		/>
+		<link
+			href="https://file.myfontastic.com/7vRKgqrN3iFEnLHuqYhYuL/icons.css"
+			rel="stylesheet"
+		/>
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+		<!-- efectos -->
+	</head>
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400|Work+Sans:300,400,700" rel="stylesheet">
+	<body
+		data-spy="scroll"
+		data-target="#navbar-nav-header"
+		class="static-layout darkMode"
+	>
+		<div class="boxed-page">
+			<nav id="gtco-header-navbar" class="navbar navbar-expand py-4">
+				<div class="container">
+					<div style="margin: 0 auto">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item">
+								<a class="nav-link" href="/home">Home</a>
+							</li>
+							<li class="nav-item">
+								<a id="activo" class="nav-link" href="/contacto"
+									>Contacto</a
+								>
+							</li>
+						</ul>
+						<img id="boton-switch" src="img/darkmode.svg" alt="" />
+					</div>
+				</div>
+			</nav>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/darkMode.css">
-    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
-    <link href="https://file.myfontastic.com/7vRKgqrN3iFEnLHuqYhYuL/icons.css" rel="stylesheet">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> <!-- efectos -->
+			<!-- CONTACTO -->
+			<section
+				style="border-top-right-radius: 5px; border-top-left-radius: 5px"
+				id="gtco-contact-form"
+				class="bg-white darkMode"
+			>
+				<div class="container darkMode" data-aos="zoom-out">
+					<div class="section-content">
+						<!-- titulo -->
+						<div class="title-wrap">
+							<h2 class="section-title h2Responsive">Contáctame</h2>
+							<!-- <p class="section-sub-title">Lorem ipsum dolor sit amet consectetur adipisrepu Porro, commodi optio! Maxime eos, excepturi non molesdi earum, voluptates et!</p> -->
+						</div>
+						<!-- fin titulo -->
+						<div class="row">
+							<!-- formulario contacto -->
+							<div class="col-md-8 offset-md-2 contact-form-holder mt-4">
+								<form
+									action="contact.php"
+									method="POST"
+									name="contact-us"
+									action=""
+								>
+									<div class="row">
+										<div class="col-md-6 form-input">
+											<input
+												type="text"
+												class="form-control"
+												id="name"
+												name="nombre"
+												placeholder="Nombre"
+											/>
+										</div>
+										<div class="col-md-6 form-input">
+											<input
+												type="email"
+												class="form-control"
+												id="email"
+												name="email"
+												placeholder="Email"
+											/>
+										</div>
+										<div class="col-md-12 form-input">
+											<input
+												type="text"
+												class="form-control"
+												id="subject"
+												name="asunto"
+												placeholder="Asunto"
+											/>
+										</div>
+										<div class="col-md-12 form-textarea">
+											<textarea
+												style="resize: none"
+												class="form-control"
+												id="message"
+												name="mensaje"
+												rows="6"
+												placeholder="Su mensaje..."
+											></textarea>
+										</div>
+										<div class="col-md-12 form-btn text-center">
+											<button
+												id="submit-button"
+												class="btn btn-block btn-secondary btn-enviar"
+												type="submit"
+												name="submit"
+											>
+												Enviar Mensaje
+											</button>
+										</div>
+										<span id="validacionName" class="validacion"
+											>&nbsp;</span
+										>
+										<span id="validacionMail" class="validacion"
+											>&nbsp;</span
+										>
+										<span id="validacionAsunto" class="validacion"
+											>&nbsp;</span
+										>
+										<span id="validacionTexto" class="validacion"
+											>&nbsp;</span
+										>
+									</div>
+								</form>
+							</div>
+							<!-- FIN formulario contacto -->
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- FIN CONTACTO -->
 
-</head>
+			<footer class="mastfoot mb-3 bg-white py-4 border-top darkMode">
+				<div class="inner container">
+					<div class="row">
+						<div
+							class="col-md-6 d-flex align-items-center justify-content-md-start justify-content-center"
+						>
+							<p class="mb-0">&copy; 2022 | Freijomil Bruno Ezequiel</p>
+						</div>
+						<div class="col-md-6">
+							<nav
+								class="nav nav-mastfoot justify-content-md-end justify-content-center"
+							>
+								<a
+									class="nav-link"
+									target="_blank"
+									href="https://www.instagram.com/bruno.freijo/"
+								>
+									<i class="icon-instagram"></i>
+								</a>
+								<a
+									class="nav-link"
+									target="_blank"
+									href="https://www.linkedin.com/in/bruno-ezequiel-freijomil-987106222/"
+								>
+									<i class="icon-linkedin"></i>
+								</a>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
 
-<body data-spy="scroll" data-target="#navbar-nav-header" class="static-layout darkMode">
-    <div class="boxed-page">
-        <nav id="gtco-header-navbar" class="navbar navbar-expand py-4">
-            <div class="container">
-                <div style="margin: 0 auto;">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a id="activo" class="nav-link" href="#">Contacto</a>
-                        </li>
-                    </ul>
-                    <img id="boton-switch" src="img/darkmode.svg" alt="">
-                </div>
-            </div>
-        </nav>
+		<!-- efectos -->
+		<script src="js/app.min.js "></script>
+		<script src="js/darkMode.js"></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script
+			type="text/javascript"
+			src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"
+		></script>
 
-        <!-- CONTACTO -->
-        <section style="border-top-right-radius: 5px; border-top-left-radius: 5px" id="gtco-contact-form"
-            class="bg-white darkMode">
-            <div class="container darkMode" data-aos="zoom-out">
-                <div class="section-content">
-                    <!-- titulo -->
-                    <div class="title-wrap">
-                        <h2 class="section-title h2Responsive">Contáctame</h2>
-                        <!-- <p class="section-sub-title">Lorem ipsum dolor sit amet consectetur adipisrepu Porro, commodi optio! Maxime eos, excepturi non molesdi earum, voluptates et!</p> -->
-
-                    </div>
-                    <!-- fin titulo -->
-                    <div class="row">
-                        <!-- formulario contacto -->
-                        <div class="col-md-8 offset-md-2 contact-form-holder mt-4">
-                            <form action="contact.php" method="POST" name="contact-us" action="">
-                                <div class="row">
-                                    <div class="col-md-6 form-input">
-                                        <input type="text" class="form-control" id="name" name="nombre"
-                                            placeholder="Nombre">
-                                    </div>
-                                    <div class="col-md-6 form-input">
-                                        <input type="email" class="form-control" id="email" name="email"
-                                            placeholder="Email">
-                                    </div>
-                                    <div class="col-md-12 form-input">
-                                        <input type="text" class="form-control" id="subject" name="asunto"
-                                            placeholder="Asunto">
-                                    </div>
-                                    <div class="col-md-12 form-textarea">
-                                        <textarea style="resize: none;" class="form-control" id="message" name="mensaje"
-                                            rows="6" placeholder="Su mensaje..."></textarea>
-                                    </div>
-                                    <div class="col-md-12 form-btn text-center">
-                                        <button id="submit-button" class="btn btn-block btn-secondary btn-enviar"
-                                            type="submit" name="submit">Enviar Mensaje</button>
-                                    </div>
-                                    <span id="validacionName" class="validacion">&nbsp;</span>
-                                    <span id="validacionMail" class="validacion">&nbsp;</span>
-                                    <span id="validacionAsunto" class="validacion">&nbsp;</span>
-                                    <span id="validacionTexto" class="validacion">&nbsp;</span>
-                                </div>
-                            </form>
-                        </div>
-                        <!-- FIN formulario contacto -->
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- FIN CONTACTO -->
-
-        <footer class="mastfoot mb-3 bg-white py-4 border-top darkMode">
-            <div class="inner container">
-                <div class="row">
-                    <div class="col-md-6 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <p class="mb-0">&copy; 2022 | Freijomil Bruno Ezequiel</p>
-                    </div>
-                    <div class="col-md-6">
-                        <nav class="nav nav-mastfoot justify-content-md-end justify-content-center">
-                            <a class="nav-link" target="_blank" href="https://www.instagram.com/bruno.freijo/">
-                                <i class="icon-instagram"></i>
-                            </a>
-                            <a class="nav-link" target="_blank"
-                                href="https://www.linkedin.com/in/bruno-ezequiel-freijomil-987106222/">
-                                <i class="icon-linkedin"></i>
-                            </a>
-                        </nav>
-                    </div>
-
-                </div>
-            </div>
-        </footer>
-    </div>
-
-    <!-- efectos -->
-    <script src="js/app.min.js "></script>
-    <script src="js/darkMode.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
-
-    <script>
-        AOS.init();
-    </script>
-    <!-- efectos fin -->
-    <script src="js/validacion.js"></script>
-</body>
-
+		<script>
+			AOS.init();
+		</script>
+		<!-- efectos fin -->
+		<script src="js/validacion.js"></script>
+	</body>
 </html>
