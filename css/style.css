@@ -448,6 +448,10 @@ footer i {
   .h2Responsive {
     font-size: 4.5rem
   }
+
+  .feature-item h4{
+    font-size: small;
+  }
 }
 
 /* es el marco celeste en responsive */
